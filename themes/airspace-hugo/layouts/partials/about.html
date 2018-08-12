@@ -1,11 +1,79 @@
-{{ partial "global-header.html" . }}
-
-<!-- contact form start -->
-<section id="contact-form">
+<!-- Slider Start -->
+<section class="global-header" style="padding-top: 50px; padding-bottom: 10px;">
     <div class="container-fluid">
         <div class="row">
-            About
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>{{.title}}</h1>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-{{ end }}
+<section>
+    <div class="container">
+        <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12 col-sm-12">
+                <p style="text-align: justify">
+                    {{.Site.Data.about.about}}
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center ">
+                <img src="{{ .Site.Data.about.archicture }}" />
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+</section>
+<!-- Slider Start -->
+<section class="global-header" style="padding-top: 50px; padding-bottom: 10px;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>{{.Site.Data.service.title}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <!-- Content -->
+        {{ range .Site.Data.service.content }}
+            {{ $.Scratch.Add "i" 1 }}
+            {{ $i := $.Scratch.Get "i" }}
+            <div class="row">
+                {{if not (modBool $i 2)}}
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <div class="service-item">
+                            <i class="{{ .icon }} fa-5x"></i>
+                            <h4>{{ .name }}</h4>
+                            <p>{{ .text }}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <p> {{.textexpanded}}</p>
+                    </div>
+                {{else}}
+                    <div class="col-md-9 col-sm-12 align-middle">
+                        <p> {{.textexpanded}}</p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 text-center">
+                        <div class="service-item">
+                            <i class="{{ .icon }} fa-5x"></i>
+                            <h4>{{ .name }}</h4>
+                            <p>{{ .text }}</p>
+                        </div>
+                    </div>
+                {{end}}
+            </div>
+        <br>
+        {{ end }}
+
+    </div>
+</section>
