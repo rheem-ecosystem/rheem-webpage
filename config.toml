@@ -1,0 +1,107 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "Rheem X-Platform"
+theme = "airspace-hugo"
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "About"
+    url = "/about"
+  [[menu.header]]
+    weight = 3
+    name = "Documentation"
+    url = "/blog"
+  [[menu.header]]
+    weight = 4
+    name = "Publications"
+    url = "/service"
+  [[menu.header]]
+    weight = 5
+    name = "People"
+    url = "/contact"
+  [[menu.header]]
+    weight = 6
+    name = "Download"
+    url = "/contact"
+  [[menu.header]]
+    weight = 7
+    name = "Contact"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "How it works"
+    url = "#"
+  [[menu.footer]]
+    weight = 4
+    name = "Blog"
+    url = "#"
+  [[menu.footer]]
+    weight = 5
+    name = "Terms"
+    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "The <strong>Cross-Platform</strong><br/>Data Processing<br/>System"
+    class = "title-big"
+    subtitle = ""
+
+  [params.wrapper]
+    enable = true
+    italic = ""
+    strong = "RHEEM"
+    paragraph = "is a system designed for cross-platform data processing. It provides an abstraction on top of existing data processing platforms in order to run data analytic tasks on top of any set of platforms. It thus allows users to focus on the logics of their applications rather on the intricacies of the underlying platforms."
+    img = "slider-bg.jpg"
+
+  [params.call]
+    enable = true
+    title = "Turning a Zoo into a Circus"
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results for your-self and install Rheem Now."
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+
+
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "Qatar Computing Research Institute, Ar Rayyan"
+      email = "Email: contact@mail.com"
+      phone = "Phone: +88 01672 506 744"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
