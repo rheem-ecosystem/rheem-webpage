@@ -9,33 +9,45 @@ content:
     class: col-sm-6 col-md-3
     text: >
       Run a single data analytic task on top of any set of data processing platforms.
+    textexpanded: >
+      dhasjdhajshdjashdja had jsdakjshd lkash kljashd kjlasdkasjldaslh dalh dashd lkahjldhdhahdasljk hdaslk dasdh lasjhgdlashd lasgflhjg
 
   - icon: fa fa-clock
     name: High-Efficiency
     class: col-sm-6 col-md-3
     text: >
       It selects the best available data processing platform for any incoming query.
+    textexpanded: >
+      dhasjdhajshdjashdja had jsdakjshd lkash kljashd kjlasdkasjldaslh dalh dashd lkahjldhdhahdasljk hdaslk dasdh lasjhgdlashd lasgflhjg
 
   - icon: fa fa-puzzle-piece
     name: Flexibility
     class: col-sm-6 col-md-3
     text: >
       User defined functions (UDFs) as first-class citizens, enabling extensibility and adaptability.
+    textexpanded: >
+      dhasjdhajshdjashdja had jsdakjshd lkash kljashd kjlasdkasjldaslh dalh dashd lkahjldhdhahdasljk hdaslk dasdh lasjhgdlashd lasgflhjg
 
   - icon: fas fa-child
     name: Ease-of-Use
     class: col-sm-6 col-md-3
     text: >
       A simple interface that allows developers to focus only on the logics of their application.
+    textexpanded: >
+      dhasjdhajshdjashdja had jsdakjshd lkash kljashd kjlasdkasjldaslh dalh dashd lkahjldhdhahdasljk hdaslk dasdh lasjhgdlashd lasgflhjg
 
   - icon: fa fa-piggy-bank
     name: Cost Saving
     class: col-sm-6 col-md-3 col-md-offset-3
     text: >
       Fast development of data analytic applications.
+    textexpanded: >
+      dhasjdhajshdjashdja had jsdakjshd lkash kljashd kjlasdkasjldaslh dalh dashd lkahjldhdhahdasljk hdaslk dasdh lasjhgdlashd lasgflhjg
 
   - icon: fa fa-code-branch
     name: Open Source
     class: col-sm-6 col-md-3
     text: >
       All code is on GitHub with the Apache Software License.
+    textexpanded: >
+      dhasjdhajshdjashdja had jsdakjshd lkash kljashd kjlasdkasjldaslh dalh dashd lkahjldhdhahdasljk hdaslk dasdh lasjhgdlashd lasgflhjg
