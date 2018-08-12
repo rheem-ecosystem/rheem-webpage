@@ -32,7 +32,7 @@ theme = "airspace-hugo"
 
   [[menu.footer]]
     weight = 1
-    name = "About us"
+    name = "About QCRI"
     url = "#"
   [[menu.footer]]
     weight = 2
@@ -40,14 +40,10 @@ theme = "airspace-hugo"
     url = "#"
   [[menu.footer]]
     weight = 3
-    name = "How it works"
-    url = "#"
-  [[menu.footer]]
-    weight = 4
     name = "Blog"
     url = "#"
   [[menu.footer]]
-    weight = 5
+    weight = 4
     name = "Terms"
     url = "#"
 
@@ -72,13 +68,13 @@ theme = "airspace-hugo"
     enable = true
     italic = ""
     strong = "RHEEM"
-    paragraph = "is a system designed for cross-platform data processing. It provides an abstraction on top of existing data processing platforms in order to run data analytic tasks on top of any set of platforms. It thus allows users to focus on the logics of their applications rather on the intricacies of the underlying platforms."
+    paragraph = "is a system designed to fully support cross-platform data processing. That is, it enables users to run data analytics over multiple data processing platforms. For this, it provides an abstraction on top of existing platforms in order to run data analytic tasks on top of any set of platforms. As a result, users can focus on the logics of their applications rather on the intricacies of the underlying platforms."
     img = "slider-bg.jpg"
 
   [params.call]
     enable = true
     title = "Turning a Zoo into a Circus"
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results for your-self and install Rheem Now."
+    paragraph = "<hyperlink>Read more</hyperlink> on how <b>RHEEM</b> tame the Zoo of existing data processing platforms to work together."
 
   [params.blog]
     enable = true
