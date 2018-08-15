@@ -12,19 +12,19 @@ theme = "airspace-hugo"
   [[menu.header]]
     weight = 3
     name = "Documentation"
-    url = "/blog"
+    url = "/documentation"
   [[menu.header]]
     weight = 4
     name = "Publications"
-    url = "/service"
+    url = "/publication"
   [[menu.header]]
     weight = 5
     name = "People"
-    url = "/contact"
+    url = "/people"
   [[menu.header]]
     weight = 6
     name = "Download"
-    url = "/contact"
+    url = "/download"
   [[menu.header]]
     weight = 7
     name = "Contact"
@@ -33,19 +33,19 @@ theme = "airspace-hugo"
   [[menu.footer]]
     weight = 1
     name = "About QCRI"
-    url = "#"
+    url = "https://www.qcri.org/"
   [[menu.footer]]
     weight = 2
     name = "Contact us"
-    url = "#"
+    url = "/contact"
   [[menu.footer]]
     weight = 3
-    name = "Blog"
-    url = "#"
+    name = "Fork me"
+    url = "https://github.com/rheem-ecosystem"
   [[menu.footer]]
     weight = 4
-    name = "Terms"
-    url = "#"
+    name = "License"
+    url = "https://github.com/rheem-ecosystem/rheem/blob/master/LICENSE.TXT"
 
 # The site's parameters
 [params]
@@ -74,7 +74,7 @@ theme = "airspace-hugo"
   [params.call]
     enable = true
     title = "Turning a Zoo into a Circus"
-    paragraph = "<hyperlink>Read more</hyperlink> on how <b>RHEEM</b> tame the Zoo of existing data processing platforms to work together."
+    paragraph =  "<a class=\"nothing\" href=\"/about\">Read more</a> on how <b>RHEEM</b> tame the Zoo of existing data processing platforms to work together."
 
   [params.blog]
     enable = true
@@ -96,8 +96,9 @@ theme = "airspace-hugo"
       button = "Send message"
     [params.contact.box]
       title = "Stop by for a visit"
-      address = "Qatar Computing Research Institute, Ar Rayyan"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
+      address = "HBKU Research Complex - PO Box 5825 - Doha, Qatar"
+      email = "qcriinfo@qf.org.qa"
+      phone = "+974 4454 0629"
+      fax = "+974 4454 0630"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"

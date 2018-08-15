@@ -6,9 +6,9 @@
       <div class="col-md-12">
         <div class="block">
           <h2>{{ .title }}</h2>
-          <p>{{ .paragraph }}</p>
+          <p>{{ .paragraph | safeHTML}}</p>
           {{ with .button }}
-          <a class="btn btn-default btn-call-to-action" href="{{ .url }}" >{{ .text }}</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ .url }}" >{{ .text | safeHTML}}</a>
           {{ end }}
         </div>
       </div>

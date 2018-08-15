@@ -1,0 +1,53 @@
+{{ partial "global-header.html" . }}
+<!-- contact form start -->
+<section id="people">
+    <div class="container">
+        <h1>Core Team</h1>
+        <div class="row">
+            <!-- Content -->
+            <div class="row">
+                {{ range .Site.Data.people.content.core }}
+                <div class="{{ .class }} col">
+                    <div class="service-item">
+                        <i class="{{ .icon }}"></i>
+                        <h4>{{ .name }}</h4>
+                        <p>{{ .text }}</p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <h1>Applications Team</h1>
+        <div class="row">
+            <!-- Content -->
+            <div class="row">
+                {{ range .Site.Data.people.content.application }}
+                <div class="{{ .class }} col">
+                    <div class="service-item">
+                        <i class="{{ .icon }}"></i>
+                        <h4>{{ .name }}</h4>
+                        <p>{{ .text }}</p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <h1>Alumni</h1>
+        <div class="row">
+            <!-- Content -->
+            <div class="row">
+                {{ range .Site.Data.people.content.alumni }}
+                <div class="{{ .class }} col">
+                    <div class="service-item">
+                        <i class="{{ .icon }}"></i>
+                        <h4>{{ .name }}</h4>
+                        <p>{{ .text }}</p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

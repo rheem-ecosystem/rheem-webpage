@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1>{{.title}}</h1>
+                    <h1>{{.Site.Data.about.title}}</h1>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
         <div class="row" style="margin-top: 15px;">
             <div class="col-md-12 col-sm-12">
                 <p style="text-align: justify">
-                    {{.Site.Data.about.about}}
+                    {{.Site.Data.about.about | safeHTML }}
                 </p>
             </div>
         </div>
@@ -49,25 +49,25 @@
             {{ $i := $.Scratch.Get "i" }}
             <div class="row">
                 {{if not (modBool $i 2)}}
-                    <div class="col-md-3 col-sm-12 text-center">
+                    <div class="col-md-3 col-sm-12 text-center vcenter">
                         <div class="service-item">
                             <i class="{{ .icon }} fa-5x"></i>
-                            <h4>{{ .name }}</h4>
-                            <p>{{ .text }}</p>
+                            <h4>{{ .name | safeHTML}}</h4>
+                            <p>{{ .text | safeHTML}}</p>
                         </div>
-                    </div>
-                    <div class="col-md-9 col-sm-12">
-                        <p> {{.textexpanded}}</p>
+                    </div><!--
+                 --><div class="col-md-9 col-sm-12 vcenter">
+                        <p> {{.textexpanded | safeHTML}}</p>
                     </div>
                 {{else}}
-                    <div class="col-md-9 col-sm-12 align-middle">
-                        <p> {{.textexpanded}}</p>
-                    </div>
-                    <div class="col-md-3 col-sm-12 text-center">
+                    <div class="col-md-9 col-sm-12 text-right vcenter">
+                        <p> {{.textexpanded | safeHTML}}</p>
+                    </div><!--
+                 --><div class="col-md-3 col-sm-12 text-center vcenter">
                         <div class="service-item">
                             <i class="{{ .icon }} fa-5x"></i>
-                            <h4>{{ .name }}</h4>
-                            <p>{{ .text }}</p>
+                            <h4>{{ .name | safeHTML }}</h4>
+                            <p>{{ .text  | safeHTML}}</p>
                         </div>
                     </div>
                 {{end}}

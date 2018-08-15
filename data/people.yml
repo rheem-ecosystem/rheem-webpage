@@ -1,0 +1,94 @@
+enable: true
+title: People
+subtitle: >
+  The team of the Zoo
+
+content:
+
+  core:
+    - imagen: fas fa-bezier-curve
+      name:   Bertty Contreras
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Zoi Kaoudi
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Jorge Quiané
+      title:  title Here
+      organization:  QCRI
+
+
+  application:
+    - imagen: fas fa-bezier-curve
+      name:   Sanjay Chawla
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Ahmed Elmagarmid
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Ji Lukas
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Mourad Ouzzani
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Nan Tang
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
+      name:   Saravanan Thirumuruganathan
+      title:  title Here
+      organization:  QCRI
+
+
+
+
+
+  alumni:
+  - imagen: fas fa-bezier-curve
+    name:   Yasser Idris
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Essam Mansour
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Anis Troudi
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Divy Agrawal
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Sebastian Kruse
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Paolo Papotti
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Mohammed Zaki
+    title:  title Here
+    organization:  QCRI
