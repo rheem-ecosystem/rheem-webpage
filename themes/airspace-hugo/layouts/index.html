@@ -3,16 +3,96 @@
 <head>
 	
 	{{ partial "head.html" . }}
+	<style>
+		header{
+			background: transparent !important;
+		}
+		header .navbar {
+			margin-bottom: 0px;
+			border: 0px;
+		}
+		header .navbar-brand {
+			padding-top: 5px;
+		}
+		header .navbar-default {
+			background: none;
+			border: 0px;
+		}
+		header .navbar-default .navbar-nav {
+			padding-top: 10px;
+		}
+		header .navbar-default .navbar-nav li a {
+			color: #fff;
+			padding: 10px 26px;
+			font-size: 15px;
+			background: linear-gradient(to bottom, rgba(70, 70, 70, 0.5), rgba(70, 70, 70, 0.1)) !important;
+		}
 
+		.logo-rheem-background img{
+			background-color: rgba(200, 200, 200, 0.5) !important;
+			border-radius: 25px;
+		}
+
+		.navbar{
+			border: none;
+			border-radius: 0;
+			background-color: transparent;
+		}
+		.navbar li {
+			color: #f0f0f0
+		}
+
+		.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+			color: #a0a0a0
+		}
+
+		.background{
+			background: url("../img/slider-bg.jpg") no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: 10% 0%;
+			min-height: 50%;
+			height: 50% !important;
+			position: relative;
+		}
+		@media only screen and (max-width: 767px){
+			header{
+				background: #fff !important;
+			}
+			header .navbar {
+				margin-bottom: 0px;
+				border: 0px;
+			}
+			header .navbar-brand {
+				padding-top: 5px;
+			}
+			header .navbar-default {
+				background: none;
+				border: 0px;
+			}
+			header .navbar-default .navbar-nav {
+				padding-top: 10px;
+			}
+			header .navbar-default .navbar-nav li a {
+				color: #333333;
+				padding: 10px 26px;
+				font-size: 15px;
+			}
+			.logo-rheem-background img{
+				background-color: transparent !important;
+				border-radius: 25px;
+			}
+		}
+	</style>
 </head>
 <body>
-
-	{{ partial "header.html" . }}
+	<div class="background">
+	{{ partial "header_transparent.html" . }}
 
 	{{ if and (isset .Site.Params "slider") (.Site.Params.slider.enable) }}
 		{{ partial "slider.html" . }}
 	{{ end }}
-
+	</div>
 	{{ if and (isset .Site.Params "wrapper") (.Site.Params.wrapper.enable) }}
 		{{ partial "wrapper.html" . }}
 	{{ end }}

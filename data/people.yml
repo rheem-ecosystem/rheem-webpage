@@ -44,6 +44,11 @@ content:
       organization:  QCRI
 
     - imagen: fas fa-bezier-curve
+      name:   Rodrigo Pardo
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
       name:   Nan Tang
       title:  title Here
       organization:  QCRI
@@ -52,6 +57,7 @@ content:
       name:   Saravanan Thirumuruganathan
       title:  title Here
       organization:  QCRI
+      offset: col-md-offset-4
 
 
 
@@ -59,22 +65,12 @@ content:
 
   alumni:
   - imagen: fas fa-bezier-curve
-    name:   Yasser Idris
-    title:  title Here
-    organization:  QCRI
-
-  - imagen: fas fa-bezier-curve
-    name:   Essam Mansour
-    title:  title Here
-    organization:  QCRI
-
-  - imagen: fas fa-bezier-curve
-    name:   Anis Troudi
-    title:  title Here
-    organization:  QCRI
-
-  - imagen: fas fa-bezier-curve
     name:   Divy Agrawal
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Yasser Idris
     title:  title Here
     organization:  QCRI
 
@@ -84,7 +80,17 @@ content:
     organization:  QCRI
 
   - imagen: fas fa-bezier-curve
+    name:   Essam Mansour
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
     name:   Paolo Papotti
+    title:  title Here
+    organization:  QCRI
+
+  - imagen: fas fa-bezier-curve
+    name:   Anis Troudi
     title:  title Here
     organization:  QCRI
 
@@ -92,3 +98,4 @@ content:
     name:   Mohammed Zaki
     title:  title Here
     organization:  QCRI
+    offset: col-md-offset-4
