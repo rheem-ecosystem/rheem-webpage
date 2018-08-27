@@ -1,5 +1,6 @@
 +++
 title = "RheemStudio: Cross-Platform Data Analytics Made Easy"
+show_title = "Demo at ICDE 2018"
 conference = "ICDE"
 year = "2018"
 link = "https://icde2018.org/"

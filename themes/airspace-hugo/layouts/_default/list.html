@@ -20,8 +20,8 @@
 					<div class="col-md-6">
 						<article class="blog-post">
 							<a class="post-title" href="{{ .Permalink }}">
-								{{ .Title }} <em>( {{ .Params.conference }}, {{ .Params.year }} )</em>
 								{{ with .Params.imagen }} <img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+								{{ .Params.show_title }}
 							</a>
 							{{if .Params.paper}}
 							<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-main"><i class="fa fa-file-pdf-o"></i> Download</a>

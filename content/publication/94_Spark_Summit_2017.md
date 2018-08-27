@@ -1,5 +1,6 @@
 +++
 title = "Interoperating a Zoo of Data Processing Platforms Using Rheem"
+show_title = "Tutorial at Spark Summit 2017"
 conference = "Spark Summit"
 year = "2017"
 link = "https://spark-summit.org/2017/"

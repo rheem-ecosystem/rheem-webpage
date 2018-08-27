@@ -1,5 +1,6 @@
 +++
 title = "Cross-Platform Data Processing: Use Cases and Challenges"
+show_title = "Tutorial at ICDE 2018"
 conference = "ICDE"
 year = "2018"
 link = "https://icde2018.org/"
