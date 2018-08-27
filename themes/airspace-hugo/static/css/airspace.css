@@ -132,7 +132,7 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #service {
   text-align: center;
-  padding: 90px 0;
+  padding: 30px 0;
 }
 #service .service-item {
   padding-bottom: 30px;
@@ -772,12 +772,20 @@ nothing {
 }
 
 #feature_about .row:nth-child(odd) {
-  background: linear-gradient(to left, rgb(139,134,163, 0.2), rgb(50,46,64, 0.0));
+  background: linear-gradient(to left, rgba(139,134,163, 0.2), rgba(50,46,64, 0.0));
 }
 #feature_about .row:nth-child(even) {
-  background: linear-gradient(to left, rgb(50,46,64, 0.0), rgb(139,134,163, 0.2));
+  background: linear-gradient(to left, rgba(50,46,64, 0.0), rgba(139,134,163, 0.2));
 }
 
+.panel-rheem {
+    border-color: rgba(255, 0, 66, 0.6);
+}
+.panel-rheem>.panel-heading {
+    /*color: rgba(255, 0, 66, 1);*/
+    color: black;
+    background-color: rgba(255, 0, 66, 0.4);
+}
 
 @media only screen and (max-width: 767px) {
   .logo-rheem{
@@ -790,7 +798,7 @@ nothing {
 	Slider Start
 --*/
   #slider {
-    background: url("../img/slider-bg.jpg") ;
+    background: transparent;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
@@ -842,6 +850,11 @@ nothing {
     font-size: 20px !important;
     text-align: justify;
     /* line-height: 2vw !important;*/
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    line-height: 28px;
   }
 
   #intro .block img {
@@ -909,7 +922,7 @@ nothing {
 	Slider Start
 --*/
   #slider {
-    background: url("../img/slider-bg.jpg") ;
+    background: transparent;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
@@ -940,13 +953,6 @@ nothing {
     letter-spacing: 2px;
     padding-bottom: 45px;
   }
-  #slider .block p {
-    font-size: 23px;
-    line-height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-  }
 
 
   /*--
@@ -959,8 +965,12 @@ nothing {
     color: #7B7B7B;
     padding-top: 20px;
     font-size: 30px !important;
-    line-height: 1.15em !important;
     text-align: justify;
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    line-height: 40px;
   }
 
   #intro .block img {
@@ -1021,7 +1031,7 @@ nothing {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1069px) {
   .logo-rheem{
     width: 25%;
     margin-top: -12%;
@@ -1032,7 +1042,7 @@ nothing {
       Slider Start
   --*/
   #slider {
-    background: url("../img/slider-bg.jpg") ;
+    background: transparent ;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
@@ -1065,13 +1075,6 @@ nothing {
      letter-spacing: 10px;
      padding-bottom: 45px;*/
   }
-  #slider .block p {
-    font-size: 23px;
-    line-height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-  }
 
 
   /*--
@@ -1090,7 +1093,11 @@ nothing {
     padding-top: 20px;
     font-size: 30px !important;
     text-align: justify;
-    line-height: 1.15em !important;
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    line-height: 40px;
   }
 
   #intro .block img {
@@ -1151,24 +1158,25 @@ nothing {
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1070px) and (max-width: 1399px) {
   .logo-rheem{
-    width: 25%;
-    margin-top: -5%;
-    margin-left: 24%;
+    width: 100%;
+    margin-top: -45%;
+    margin-left: 60%;
     z-index: 10;
+  }
+  .navbar-brand {
+    max-width: 200px;
   }
   /*--
 	Slider Start
 --*/
   #slider {
-    background: url("../img/slider-bg.jpg") ;
+    background: transparent ;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
     padding: 20px 0 70px 0;
-    /*min-height: 100%;
-    */
     height: 80vh !important;
     position: relative;
   }
@@ -1181,8 +1189,6 @@ nothing {
     right: 0;
     width: 100%;
     height: 100%;
-    /*background: linear-gradient(to left, #8b86a3, #322e40);
-    opacity: 0.8;*/
   }
   #slider .block {
     color: #E3E3E4;
@@ -1192,16 +1198,6 @@ nothing {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 45px;
-    /* line-height: 60px;
-     letter-spacing: 10px;
-     padding-bottom: 45px;*/
-  }
-  #slider .block p {
-    font-size: 23px;
-    line-height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
   }
 
 
@@ -1220,8 +1216,11 @@ nothing {
     color: #7B7B7B;
     padding-top: 20px;
     font-size: 30px !important;
-
-    line-height: 1.15em !important;
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    line-height: 38px;
   }
 
   #intro .block img {
@@ -1284,16 +1283,19 @@ nothing {
 
 @media only screen and (min-width: 1400px)  {
   .logo-rheem{
-    width: 25%;
-    margin-top: -10%;
-    margin-left: 20%;
+    width: 40%;
+    margin-top: -20%;
+    margin-left: 30%;
     z-index: 10;
+  }
+  .navbar-brand {
+    max-width: 500px;
   }
   /*--
 	Slider Start
 --*/
   #slider {
-    background: url("../img/slider-bg.jpg") ;
+    background: transparent ;
     background-size: cover;
     background-attachment: fixed;
     background-position: 10% 0%;
@@ -1326,14 +1328,6 @@ nothing {
      letter-spacing: 10px;
      padding-bottom: 45px;*/
   }
-  #slider .block p {
-    font-size: 23px;
-    line-height: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-  }
-
 
   /*--
       wrapper Start
@@ -1350,7 +1344,11 @@ nothing {
     color: #7B7B7B;
     padding-top: 20px;
     font-size: 30px !important;
-    line-height: 1.15em !important;
+    font-family: "Open Sans" !important;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+    line-height: 38px;
   }
 
   #intro .block img {

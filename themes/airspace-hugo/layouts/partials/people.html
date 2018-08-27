@@ -13,8 +13,8 @@
                     {{if (modBool $i 3)}}
                         <div class="row">
                     {{end}}
-                            <div class="col-md-4 col-sm-12">
-                                <div class="panel panel-success">
+                            <div class="col-md-4 col-sm-12 {{.offset}}">
+                                <div class="panel panel-rheem">
                                     <div class="panel-heading text-center">
                                         <Strong>{{ .name }}</Strong>
                                     </div>
@@ -37,13 +37,13 @@
             <div class="row">
                 <!-- Content -->
                 {{ range .Site.Data.people.content.application }}
-                {{ $.Scratch.Add "i" 1 }}
-                {{ $i := $.Scratch.Get "i" }}
-                {{if (modBool $i 3)}}
+                {{ $.Scratch.Add "k" 1 }}
+                {{ $k := $.Scratch.Get "k" }}
+                {{if (modBool $k 3)}}
                 <div class="row">
                     {{end}}
-                    <div class="col-md-4 col-sm-12">
-                        <div class="panel panel-default">
+                    <div class="col-md-4 col-sm-12 {{.offset}}">
+                        <div class="panel panel-info">
                             <div class="panel-heading text-center">
                                 <Strong>{{ .name }}</Strong>
                             </div>
@@ -52,7 +52,7 @@
                             </div>
                         </div>
                     </div>
-                    {{if (modBool $i 3)}}
+                    {{if (modBool $k 3)}}
                 </div>
                 {{end}}
                 {{ end }}
@@ -65,13 +65,13 @@
             <div class="row">
                 <!-- Content -->
                 {{ range .Site.Data.people.content.alumni }}
-                {{ $.Scratch.Add "i" 1 }}
-                {{ $i := $.Scratch.Get "i" }}
-                {{if (modBool $i 3)}}
+                {{ $.Scratch.Add "j" 1 }}
+                {{ $j := $.Scratch.Get "j" }}
+                {{if (modBool $j 3)}}
                 <div class="row">
                     {{end}}
-                    <div class="col-md-4 col-sm-12">
-                        <div class="panel panel-info">
+                    <div class="col-md-4 col-sm-12 {{.offset}}">
+                        <div class="panel panel-default">
                             <div class="panel-heading text-center">
                                 <Strong>{{ .name }}</Strong>
                             </div>
@@ -81,7 +81,7 @@
 
                         </div>
                     </div>
-                    {{if (modBool $i 3)}}
+                    {{if (modBool $j 3)}}
                 </div>
                 {{end}}
                 {{ end }}
