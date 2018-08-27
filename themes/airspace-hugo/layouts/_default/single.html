@@ -21,11 +21,16 @@
 	            <hr />
 	            <p>{{ .Content }}</p>
 				<hr />
-			  	{{if .Params.paper}}
-				  <p class="center-text" style="width: 100%">
-				  	<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-main"><i class="fa fa-file-pdf-o"></i> Download</a>
-				  </p>
-			  	{{end}}
+			  	<p class="center-text" style="width: 100%">
+					{{if .Params.paper}}
+						<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-main"><i class="fa fa-file-pdf-o"></i> Download</a>
+						<br>
+					{{end}}
+					{{if .Params.video}}
+					 	<a href="{{.Params.video}}" class="btn btn-main"><i class="fa fa-video"></i> Look</a>
+						<br>
+					{{end}}
+			  	</p>
 	          </div>
 	        </div><!-- .col-md-7 close -->
 	      </div>

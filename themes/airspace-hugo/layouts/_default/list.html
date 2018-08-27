@@ -26,10 +26,11 @@
 								<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-link" style="font-size: 1.5em;">
 									<img src="/img/pdf.png" style="width: 1.5em; margin-top: 0.99em"> {{ .Params.show_title }}
 								</a>
-							{{else}}
-								<p style="font-size: 1.5em;">
-									{{ .Params.show_title }}
-								</p>
+							{{end}}
+							{{if .Params.video}}
+								<a href="{{.Params.video}}" class="btn btn-link" style="font-size: 1.5em;">
+									<i class="fa fa-video"></i> {{ .Params.show_title }}
+								</a>
 							{{end}}
 						</article>
 					</div>

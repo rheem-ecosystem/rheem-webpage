@@ -23,13 +23,13 @@
           <div class="block">
 
               <div class="form-group-2">
-                <textarea class="form-control" class="message" rows="3" placeholder="{{ .form.message }}"></textarea>
+                <textarea class="form-control" name="message" rows="3" placeholder="{{ .form.message }}"></textarea>
               </div>
               <button class="btn btn-default" type="submit">{{ .form.button }}</button>
 
           </div>
         </div>
-        <input type="hidden" name="_next" value="{{ $.Site.BaseURL }}thanks.html" />
+        <input type="hidden" name="_next" value="{{ $.Site.BaseURL }}thanks" />
       </form>
     </div>
     <div id="contact-box" class="row">
