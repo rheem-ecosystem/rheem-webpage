@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Rheem X-Platform</title>
+    <link>http://da.qcri.org/rheem/categories/</link>
+    <description>Recent content in Categories on Rheem X-Platform</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://da.qcri.org/rheem/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publication</title>
+      <link>http://da.qcri.org/rheem/categories/publication/</link>
+      <pubDate>Thu, 01 Mar 2018 13:07:31 +0200</pubDate>
+      
+      <guid>http://da.qcri.org/rheem/categories/publication/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

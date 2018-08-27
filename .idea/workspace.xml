@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0abb1e1e-6d1d-4fc9-b954-6cf13e5f58e2" name="Default" comment="Download Section">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0abb1e1e-6d1d-4fc9-b954-6cf13e5f58e2" name="Default" comment="Google analitics">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/head.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,9 +21,9 @@
           <entry key="css" value="1071" />
           <entry key="html" value="5153" />
           <entry key="js" value="5" />
-          <entry key="md" value="1298" />
-          <entry key="toml" value="235" />
-          <entry key="txt" value="229" />
+          <entry key="md" value="1301" />
+          <entry key="toml" value="236" />
+          <entry key="txt" value="287" />
           <entry key="yml" value="713" />
         </counts>
       </usages-collector>
@@ -34,9 +32,9 @@
           <entry key="CSS" value="1071" />
           <entry key="HTML" value="5153" />
           <entry key="JavaScript" value="5" />
-          <entry key="Markdown" value="1298" />
-          <entry key="PLAIN_TEXT" value="229" />
-          <entry key="TOML file" value="235" />
+          <entry key="Markdown" value="1301" />
+          <entry key="PLAIN_TEXT" value="287" />
+          <entry key="TOML file" value="236" />
           <entry key="YAML" value="713" />
         </counts>
       </usages-collector>
@@ -120,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/head.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="498">
-              <caret line="45" column="56" lean-forward="true" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -134,23 +132,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -308,32 +306,6 @@
               <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="airspace-hugo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="airspace-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="airspace-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -389,7 +361,7 @@
       <workItem from="1533744792280" duration="8156000" />
       <workItem from="1534234937220" duration="11147000" />
       <workItem from="1535268019924" duration="18387000" />
-      <workItem from="1535382055027" duration="19471000" />
+      <workItem from="1535382055027" duration="19666000" />
     </task>
     <task id="LOCAL-00001" summary="small changes">
       <created>1534080855511</created>
@@ -489,11 +461,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535403570214</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Readme and Google Analitics">
+      <created>1535404534009</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1535404534009</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Google analitics">
+      <created>1535404566548</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1535404566548</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49932000" />
+    <option name="totallyTimeSpent" value="50127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,9 +506,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Heroku" order="8" weight="0.32919708" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" weight="0.3180723" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.3180723" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.3192771" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989429" visible="true" weight="0.3192771" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989429" weight="0.3192771" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -591,8 +577,10 @@
     <MESSAGE value="Correction logo" />
     <MESSAGE value="problem with logo" />
     <MESSAGE value="Add video in Spark summit" />
+    <MESSAGE value="Readme and Google Analitics" />
     <MESSAGE value="Download Section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Download Section" />
+    <MESSAGE value="Google analitics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Google analitics" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/img/screenshot/vision.png">
@@ -982,24 +970,24 @@
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
-          <caret line="45" column="56" lean-forward="true" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-          </first_editor>
-          <second_editor />
+          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

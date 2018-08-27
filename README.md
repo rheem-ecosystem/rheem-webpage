@@ -10,6 +10,6 @@ $ hugo -D server
 Change in the file ./config.toml the variable "baseURL" for the final path then
 
 ```sheel
-$ hugo -s
+$ hugo -s ./
 ```
 After the execution of this command the code html will be in the folder public
