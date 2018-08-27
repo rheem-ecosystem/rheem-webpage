@@ -1405,3 +1405,30 @@ nothing {
     word-spacing: 3px;
   }
 }
+
+pre{
+  padding: 2px !important;
+}
+/* for block of numbers */
+td.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: right !important;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 8px !important;
+  padding-left: 15px !important;
+
+  /* your custom style here */
+}
+
+/* for block of code */
+td.hljs-ln-code {
+  padding-left: 15px !important;
+}
