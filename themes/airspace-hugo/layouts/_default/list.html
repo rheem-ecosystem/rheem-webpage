@@ -23,19 +23,14 @@
 								{{ with .Params.imagen }} <img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
 							</a>
 							{{if .Params.paper}}
-							<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-link">
-								<img src="/img/pdf.png" style="width: 1.5em; margin-top: 0.99em"> {{ .Params.show_title }}
-							</a>
-
+								<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-link" style="font-size: 1.5em;">
+									<img src="/img/pdf.png" style="width: 1.5em; margin-top: 0.99em"> {{ .Params.show_title }}
+								</a>
 							{{else}}
-							{{ .Params.show_title }}
-
-
+								<p style="font-size: 1.5em;">
+									{{ .Params.show_title }}
+								</p>
 							{{end}}
-
-
-
-
 						</article>
 					</div>
 
