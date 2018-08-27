@@ -6,14 +6,27 @@
         <div class="row">
             <!-- Content -->
             <div class="row">
+                <!-- Content -->
                 {{ range .Site.Data.people.content.core }}
-                <div class="{{ .class }} col">
-                    <div class="service-item">
-                        <i class="{{ .icon }}"></i>
-                        <h4>{{ .name }}</h4>
-                        <p>{{ .text }}</p>
-                    </div>
-                </div>
+                    {{ $.Scratch.Add "i" 1 }}
+                    {{ $i := $.Scratch.Get "i" }}
+                    {{if (modBool $i 3)}}
+                        <div class="row">
+                    {{end}}
+                            <div class="col-md-4 col-sm-12">
+                                <div class="panel panel-success">
+                                    <div class="panel-heading text-center">
+                                        <Strong>{{ .name }}</Strong>
+                                    </div>
+                                    <div class="panel-body text-center">
+                                        <i class="fa fa-5x fa-user"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                    {{if (modBool $i 3)}}
+                        </div>
+                    {{end}}
                 {{ end }}
             </div>
         </div>
@@ -22,14 +35,26 @@
         <div class="row">
             <!-- Content -->
             <div class="row">
+                <!-- Content -->
                 {{ range .Site.Data.people.content.application }}
-                <div class="{{ .class }} col">
-                    <div class="service-item">
-                        <i class="{{ .icon }}"></i>
-                        <h4>{{ .name }}</h4>
-                        <p>{{ .text }}</p>
+                {{ $.Scratch.Add "i" 1 }}
+                {{ $i := $.Scratch.Get "i" }}
+                {{if (modBool $i 3)}}
+                <div class="row">
+                    {{end}}
+                    <div class="col-md-4 col-sm-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading text-center">
+                                <Strong>{{ .name }}</Strong>
+                            </div>
+                            <div class="panel-body text-center">
+                                <i class="fa fa-5x fa-user"></i>
+                            </div>
+                        </div>
                     </div>
+                    {{if (modBool $i 3)}}
                 </div>
+                {{end}}
                 {{ end }}
             </div>
         </div>
@@ -38,14 +63,27 @@
         <div class="row">
             <!-- Content -->
             <div class="row">
+                <!-- Content -->
                 {{ range .Site.Data.people.content.alumni }}
-                <div class="{{ .class }} col">
-                    <div class="service-item">
-                        <i class="{{ .icon }}"></i>
-                        <h4>{{ .name }}</h4>
-                        <p>{{ .text }}</p>
+                {{ $.Scratch.Add "i" 1 }}
+                {{ $i := $.Scratch.Get "i" }}
+                {{if (modBool $i 3)}}
+                <div class="row">
+                    {{end}}
+                    <div class="col-md-4 col-sm-12">
+                        <div class="panel panel-info">
+                            <div class="panel-heading text-center">
+                                <Strong>{{ .name }}</Strong>
+                            </div>
+                            <div class="panel-body text-center">
+                                <i class="fa fa-5x fa-user"></i>
+                            </div>
+
+                        </div>
                     </div>
+                    {{if (modBool $i 3)}}
                 </div>
+                {{end}}
                 {{ end }}
             </div>
         </div>
