@@ -11,21 +11,28 @@
 
 	<section class="blog section">
 		<div class="container">
-			<div class="row">
-				{{ range (.Paginator 6).Pages }}
-				<div class="col-md-6">
-					<article class="blog-post">
-						{{ with .Params.image }}
-						<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
-						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
-						<p>
-							{{ .Summary }}
-						</p>
-						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
-					</article>
-				</div>
-				{{ end }}
-			</div>
+			{{ range (.Paginator 6).Pages }}
+				{{ $.Scratch.Add "i" 1 }}
+				{{ $i := $.Scratch.Get "i" }}
+				{{if (modBool $i 2)}}
+					<div class="row">
+				{{end}}
+					<div class="col-md-6">
+						<article class="blog-post">
+							<a class="post-title" href="{{ .Permalink }}">
+								{{ .Title }} <em>( {{ .Params.conference }}, {{ .Params.year }} )</em>
+								{{ with .Params.imagen }} <img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+							</a>
+							{{if .Params.paper}}
+							<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-main"><i class="fa fa-file-pdf-o"></i> Download</a>
+							{{end}}
+						</article>
+					</div>
+
+				{{if (modBool $i 2)}}
+					</div>
+				{{end}}
+			{{ end }}
 			<div class="col-12 text-center">
 				{{ template "_internal/pagination.html" . }}
 			</div>

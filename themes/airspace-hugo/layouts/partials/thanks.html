@@ -1,0 +1,52 @@
+{{ partial "global-header.html" . }}
+<!-- contact form start -->
+{{ with .Site.Params.contact }}
+<section id="contact-form">
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-success" role="alert">
+                Thanks you, will contact with you!!
+            </div>
+        </div>
+        <div id="contact-box" class="row">
+            <div class="col-md-6 col-sm-12">
+                <div class="block">
+
+                    <h2>{{ .box.title }}</h2>
+                    <ul class="address-block">
+                        <li>
+                            <i class="fa fa-map-marker"></i>{{ .box.address }}
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope-o"></i>{{ .box.email }}
+                        </li>
+                        <li>
+                            <i class="fa fa-phone"></i>{{ .box.phone }}
+                        </li>
+                        <li>
+                            <i class="fa fa-fax"></i>{{ .box.fax }}
+                        </li>
+                    </ul>
+                    <ul class="social-icons">
+                        {{ range .social }}
+                        <li>
+                            <a href="{{ .url }}"><i class="fa {{ .icon }}"></i></a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                {{ with .gmaps}}
+                <div class="block">
+                    <h2>{{ .title }}</h2>
+                    <div class="google-map">
+                        <iframe src="https://maps.google.com/maps?q=Qatar%20Computing%20Research%20Institute%2C%20Ar-Rayyan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" width="555" height="300" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{end}}
