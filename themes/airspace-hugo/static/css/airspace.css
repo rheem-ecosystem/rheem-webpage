@@ -1157,8 +1157,8 @@ nothing {
 
 @media only screen and (min-width: 1070px) and (max-width: 1399px) {
   .logo-rheem{
-    width: 100%;
-    margin-top: -45%;
+    width: 120%;
+    margin-top: -55%;
     margin-left: 60%;
     z-index: 10;
   }
@@ -1280,8 +1280,8 @@ nothing {
 
 @media only screen and (min-width: 1400px)  {
   .logo-rheem{
-    width: 80%;
-    margin-top: -40%;
+    width: 100%;
+    margin-top: -50%;
     margin-left: 70%;
     z-index: 10;
   }

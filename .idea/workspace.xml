@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0abb1e1e-6d1d-4fc9-b954-6cf13e5f58e2" name="Default" comment="Google analitics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0abb1e1e-6d1d-4fc9-b954-6cf13e5f58e2" name="Default" comment="Google analitics" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,22 +15,22 @@
     <session id="-1901409138">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1078" />
+          <entry key="css" value="1083" />
           <entry key="html" value="5154" />
           <entry key="js" value="5" />
           <entry key="md" value="1301" />
           <entry key="toml" value="237" />
-          <entry key="txt" value="311" />
+          <entry key="txt" value="323" />
           <entry key="yml" value="713" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1078" />
+          <entry key="CSS" value="1083" />
           <entry key="HTML" value="5154" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1301" />
-          <entry key="PLAIN_TEXT" value="311" />
+          <entry key="PLAIN_TEXT" value="323" />
           <entry key="TOML file" value="237" />
           <entry key="YAML" value="713" />
         </counts>
@@ -81,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="1282" column="13" selection-start-line="1282" selection-start-column="13" selection-end-line="1282" selection-end-column="13" />
+            <state relative-caret-position="229">
+              <caret line="1160" column="19" selection-start-line="1160" selection-start-column="19" selection-end-line="1160" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -311,7 +309,7 @@
       <workItem from="1535268019924" duration="18387000" />
       <workItem from="1535382055027" duration="19983000" />
       <workItem from="1535437955280" duration="771000" />
-      <workItem from="1535458696623" duration="579000" />
+      <workItem from="1535458696623" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="small changes">
       <created>1534080855511</created>
@@ -446,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535459364827</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Size of logo">
+      <created>1535459619134</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1535459619134</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51794000" />
+    <option name="totallyTimeSpent" value="51903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +470,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -479,7 +484,7 @@
       <window_info anchor="bottom" id="Heroku" order="8" weight="0.32919708" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" weight="0.3180723" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.3192771" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989429" visible="true" weight="0.3192771" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.4989429" visible="true" weight="0.3192771" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -553,7 +558,8 @@
     <MESSAGE value="public generate" />
     <MESSAGE value="Font size" />
     <MESSAGE value="Google analitics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Google analitics" />
+    <MESSAGE value="Size of logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Size of logo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/content/work.md">
@@ -937,8 +943,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1282" column="13" selection-start-line="1282" selection-start-column="13" selection-end-line="1282" selection-end-column="13" />
+        <state relative-caret-position="229">
+          <caret line="1160" column="19" selection-start-line="1160" selection-start-column="19" selection-end-line="1160" selection-end-column="19" />
         </state>
       </provider>
     </entry>
