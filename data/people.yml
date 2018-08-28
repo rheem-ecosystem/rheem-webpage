@@ -17,9 +17,15 @@ content:
       organization:  QCRI
 
     - imagen: fas fa-bezier-curve
+      name:   Sebastian Kruse
+      title:  title Here
+      organization:  QCRI
+
+    - imagen: fas fa-bezier-curve
       name:   Jorge Quiané
       title:  title Here
       organization:  QCRI
+      offset: col-md-offset-4
 
 
   application:
@@ -75,11 +81,6 @@ content:
     organization:  QCRI
 
   - imagen: fas fa-bezier-curve
-    name:   Sebastian Kruse
-    title:  title Here
-    organization:  QCRI
-
-  - imagen: fas fa-bezier-curve
     name:   Essam Mansour
     title:  title Here
     organization:  QCRI
@@ -98,4 +99,3 @@ content:
     name:   Mohammed Zaki
     title:  title Here
     organization:  QCRI
-    offset: col-md-offset-4
