@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0abb1e1e-6d1d-4fc9-b954-6cf13e5f58e2" name="Default" comment="Google analitics" />
+    <list default="true" id="0abb1e1e-6d1d-4fc9-b954-6cf13e5f58e2" name="Default" comment="Logo size responsive">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/publication/94_Spark_Summit_2017.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/publication/94_Spark_Summit_2017.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/people.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/people.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/download.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,23 +21,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1083" />
-          <entry key="html" value="5154" />
+          <entry key="html" value="5188" />
           <entry key="js" value="5" />
-          <entry key="md" value="1301" />
+          <entry key="md" value="1307" />
           <entry key="toml" value="237" />
-          <entry key="txt" value="323" />
-          <entry key="yml" value="713" />
+          <entry key="txt" value="350" />
+          <entry key="yml" value="726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1083" />
-          <entry key="HTML" value="5154" />
+          <entry key="HTML" value="5188" />
           <entry key="JavaScript" value="5" />
-          <entry key="Markdown" value="1301" />
-          <entry key="PLAIN_TEXT" value="323" />
+          <entry key="Markdown" value="1307" />
+          <entry key="PLAIN_TEXT" value="350" />
           <entry key="TOML file" value="237" />
-          <entry key="YAML" value="713" />
+          <entry key="YAML" value="726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -50,25 +55,27 @@
         <counts>
           <entry key="VLDB_2018" value="1" />
           <entry key="css" value="23" />
-          <entry key="html" value="113" />
+          <entry key="html" value="116" />
           <entry key="jpg" value="10" />
           <entry key="js" value="13" />
-          <entry key="md" value="116" />
+          <entry key="md" value="117" />
           <entry key="png" value="25" />
           <entry key="toml" value="7" />
-          <entry key="yml" value="9" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="23" />
-          <entry key="HTML" value="113" />
+          <entry key="HTML" value="116" />
           <entry key="Image" value="35" />
           <entry key="JavaScript" value="13" />
-          <entry key="Markdown" value="116" />
+          <entry key="Markdown" value="117" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="TOML file" value="7" />
-          <entry key="YAML" value="9" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -77,26 +84,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace.css">
+        <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="1160" column="19" selection-start-line="1160" selection-start-column="19" selection-end-line="1160" selection-end-column="19" />
+            <state relative-caret-position="355">
+              <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace-local-fonts.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -159,7 +159,6 @@
         <option value="$PROJECT_DIR$/content/thanks.md" />
         <option value="$PROJECT_DIR$/content/publication/VLDB_2018.md" />
         <option value="$PROJECT_DIR$/data/about.yml" />
-        <option value="$PROJECT_DIR$/data/people.yml" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/people.html" />
         <option value="$PROJECT_DIR$/content/publication/91_ICDE_2018_tutorial.md" />
         <option value="$PROJECT_DIR$/content/publication/92_ICDE_2018_studio.md" />
@@ -170,21 +169,22 @@
         <option value="$PROJECT_DIR$/content/publication/97_VLDB_2016.md" />
         <option value="$PROJECT_DIR$/content/publication/98_VLDB_2015.md" />
         <option value="$PROJECT_DIR$/content/publication/99_SIGMOD_2015.md" />
-        <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/about.html" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/header_transparent.html" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/contact.html" />
-        <option value="$PROJECT_DIR$/content/publication/94_Spark_Summit_2017.md" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/_default/single.html" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/_default/list.html" />
         <option value="$PROJECT_DIR$/content/download.md" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/page/single.html" />
-        <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/download.html" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/footer.html" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/head.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/index.html" />
         <option value="$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace.css" />
+        <option value="$PROJECT_DIR$/content/publication/94_Spark_Summit_2017.md" />
+        <option value="$PROJECT_DIR$/data/people.yml" />
+        <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/download.html" />
+        <option value="$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/about.html" />
       </list>
     </option>
   </component>
@@ -215,6 +215,11 @@
             <path>
               <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
               <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,21 +243,6 @@
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="airspace-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rheem.com.qa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rheem.com.qa" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="airspace-hugo" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,15 +254,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/pdf" />
-      <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/img" />
       <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/js" />
       <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/css" />
       <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/img/paper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/pdf" />
+      <recent name="$PROJECT_DIR$/themes/airspace-hugo/static/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +299,7 @@
       <workItem from="1535268019924" duration="18387000" />
       <workItem from="1535382055027" duration="19983000" />
       <workItem from="1535437955280" duration="771000" />
-      <workItem from="1535458696623" duration="688000" />
+      <workItem from="1535458696623" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="small changes">
       <created>1534080855511</created>
@@ -451,11 +441,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535459619134</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Logo size responsive">
+      <created>1535459722925</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1535459722925</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51903000" />
+    <option name="totallyTimeSpent" value="52658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,9 +479,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Heroku" order="8" weight="0.32919708" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" weight="0.3180723" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.3180723" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.3192771" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.4989429" visible="true" weight="0.3192771" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989429" weight="0.3192771" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,19 +556,10 @@
     <MESSAGE value="Font size" />
     <MESSAGE value="Google analitics" />
     <MESSAGE value="Size of logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Size of logo" />
+    <MESSAGE value="Logo size responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo size responsive" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/work.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="10" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/service.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -631,13 +619,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/people.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="100" column="27" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -808,16 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/publication/94_Spark_Summit_2017.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" column="101" selection-start-line="12" selection-start-column="101" selection-end-line="12" selection-end-column="101" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/download.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -842,32 +813,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/img/java.jpg" />
-    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="621" column="325" selection-start-line="621" selection-start-column="325" selection-end-line="621" selection-end-column="325" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
-            <element signature="n#style#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#section#4;n#!!top" />
-            <element signature="n#code#0;n#pre#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#4;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -892,25 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/page/single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="10" selection-start-line="39" selection-end-line="49" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,16 +850,6 @@
           <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace-local-fonts.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/header_transparent.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -941,10 +861,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/publication/94_Spark_Summit_2017.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace-local-fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/static/css/airspace.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="1160" column="19" selection-start-line="1160" selection-start-column="19" selection-end-line="1160" selection-end-column="19" />
+        <state relative-caret-position="244">
+          <caret line="1162" column="16" lean-forward="true" selection-start-line="1162" selection-start-column="16" selection-end-line="1162" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" />
+            <element signature="n#style#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#6;n#div#0;n#div#0;n#div#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#!!top" />
+            <element signature="n#code#0;n#pre#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#4;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/people.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/airspace-hugo/layouts/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="74" column="65" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Rheem X-Platform</title>
-    <link>http://da.qcri.org/rheem/publication/</link>
+    <link>http://localhost/publication/</link>
     <description>Recent content in Publications on Rheem X-Platform</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Mar 2018 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="http://da.qcri.org/rheem/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RHEEM: Enabling Cross-Platform Data Processing</title>
-      <link>http://da.qcri.org/rheem/publication/90_vldb_2018/</link>
+      <link>http://localhost/publication/90_vldb_2018/</link>
       <pubDate>Thu, 01 Mar 2018 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/90_vldb_2018/</guid>
+      <guid>http://localhost/publication/90_vldb_2018/</guid>
       <description>Solving business problems increasingly requires going beyond the limits of a single data processing platform (platform for short), such as Hadoop or a DBMS. As a result, organizations typically perform tedious and costly tasks to juggle their code and data across different platforms. Addressing this pain and achieving automatic cross-platform data processing is quite challenging: finding the most efficient platform for a given task requires quite good expertise for all the available platforms.</description>
     </item>
     
     <item>
       <title>Cross-Platform Data Processing: Use Cases and Challenges</title>
-      <link>http://da.qcri.org/rheem/publication/91_icde_2018_tutorial/</link>
+      <link>http://localhost/publication/91_icde_2018_tutorial/</link>
       <pubDate>Mon, 01 Jan 2018 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/91_icde_2018_tutorial/</guid>
+      <guid>http://localhost/publication/91_icde_2018_tutorial/</guid>
       <description>There is a zoo of data processing platforms which help users and organizations to extract value out of their data. Although each of these platforms excels in specific aspects, users typically end up running their data analytics on suboptimal platforms. This is not only because choosing the right platform among the myriad of big data platforms is a daunting task, but also due to the fact that today’s data analytics are moving beyond the limits of a single platform.</description>
     </item>
     
     <item>
       <title>RheemStudio: Cross-Platform Data Analytics Made Easy</title>
-      <link>http://da.qcri.org/rheem/publication/92_icde_2018_studio/</link>
+      <link>http://localhost/publication/92_icde_2018_studio/</link>
       <pubDate>Mon, 01 Jan 2018 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/92_icde_2018_studio/</guid>
+      <guid>http://localhost/publication/92_icde_2018_studio/</guid>
       <description>Many of today’s applications need several data processing platforms for complex analytics. Thus, recent systems have taken steps towards supporting cross-platform data analytics. Yet, current cross-platform systems lack of ease-of-use, which is crucial for their adoption. This demo presents RHEEMStudio, a visual IDE on top of RHEEM. It allows users to easily specify their cross-platform data analytic tasks. In this demo, we will demonstrate five main features of RHEEMStudio: drag-and-drop, declarative, interactive, and customized specification of data analytic tasks as well as easy monitoring of tasks.</description>
     </item>
     
     <item>
       <title>A Cost-based Optimizer for Gradient Descent Optimization</title>
-      <link>http://da.qcri.org/rheem/publication/93_sigmod_2017/</link>
+      <link>http://localhost/publication/93_sigmod_2017/</link>
       <pubDate>Wed, 01 Feb 2017 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/93_sigmod_2017/</guid>
+      <guid>http://localhost/publication/93_sigmod_2017/</guid>
       <description>As the use of machine learning (ML) permeates into diverse application domains, there is an urgent need to support a declarative framework for ML. Ideally, a user will specify an ML task in a high-level and easy-to-use language and the framework will invoke the appropriate algorithms and system configurations to execute it. An important observation towards designing such a framework is that many ML tasks can be expressed as mathematical optimization problems, which take a specific form.</description>
     </item>
     
     <item>
       <title>Interoperating a Zoo of Data Processing Platforms Using Rheem</title>
-      <link>http://da.qcri.org/rheem/publication/94_spark_summit_2017/</link>
+      <link>http://localhost/publication/94_spark_summit_2017/</link>
       <pubDate>Sun, 01 Jan 2017 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/94_spark_summit_2017/</guid>
+      <guid>http://localhost/publication/94_spark_summit_2017/</guid>
       <description>We are witnessing a proliferation of big data, which has lead to a zoo of data processing systems. Each system providing a different set of features. For example, Spark provides scalability to analytic tasks, but Java 8 Streams provides low-latency. Furthermore, complex applications, such as ETL and ML, are now requiring a mixture of platforms to perform tasks efficiently. In such complex data analytics pipelines, the use of multiple data processing system is not only for performance reasons, but also because of data diversity.</description>
     </item>
     
     <item>
       <title>Rheem: Enabling Multi-Platform Task Execution</title>
-      <link>http://da.qcri.org/rheem/publication/95_sigmod_2016/</link>
+      <link>http://localhost/publication/95_sigmod_2016/</link>
       <pubDate>Tue, 01 Mar 2016 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/95_sigmod_2016/</guid>
+      <guid>http://localhost/publication/95_sigmod_2016/</guid>
       <description>Many emerging applications, from domains such as healthcare and oil &amp;amp; gas, require several data processing systems for complex analytics. This demo paper showcases Rheem, a framework that provides multi-platform task execution for such applications. It features a three-layer data processing abstraction and a new query optimization approach for multi-platform settings. We will demonstrate the strengths of Rheem by using real-world scenarios from three different applications, namely, machine learning, data cleaning, and data fusion.</description>
     </item>
     
     <item>
       <title>Road to Freedom in Data Analytics</title>
-      <link>http://da.qcri.org/rheem/publication/96_edbt_2016/</link>
+      <link>http://localhost/publication/96_edbt_2016/</link>
       <pubDate>Mon, 01 Feb 2016 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/96_edbt_2016/</guid>
+      <guid>http://localhost/publication/96_edbt_2016/</guid>
       <description>The world is fast moving towards a data-driven society where data is the most valuable asset. Organizations need to perform very diverse analytic tasks using various data processing platforms. In doing so, they face many challenges; chiefly, platform dependence, poor interoperability, and poor performance when using multiple platforms. We present RHEEM, our vision for big data analytics over diverse data processing platforms. RHEEM provides a threelayer data processing and storage abstraction to achieve both platform independence and interoperability across multiple platforms.</description>
     </item>
     
     <item>
       <title>Rheem</title>
-      <link>http://da.qcri.org/rheem/publication/97_vldb_2016/</link>
+      <link>http://localhost/publication/97_vldb_2016/</link>
       <pubDate>Fri, 01 Jan 2016 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/97_vldb_2016/</guid>
+      <guid>http://localhost/publication/97_vldb_2016/</guid>
       <description>Bored of keep moving your app to the newest data processing platform to achieve high performance? Tired of dealing with a zoo of processing platforms to get the best performance for your analytic tasks? Then, this tutorial is for you! Indeed, we are witnessing a plethora of innovative data processing platforms in the last few years. While this is generally great, leveraging these new technologies in practice bears quite some challenges, just to name a few, developers must: (i) find among the plethora of processing platforms the best one for their applications; (ii) migrate their applications to newer and faster platforms every now and then; and (iii) orchestrate different platforms so that applications leverage their individual benefits.</description>
     </item>
     
     <item>
       <title>Lightning Fast and Space Efficient Inequality Joins</title>
-      <link>http://da.qcri.org/rheem/publication/98_vldb_2015/</link>
+      <link>http://localhost/publication/98_vldb_2015/</link>
       <pubDate>Sun, 01 Feb 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/98_vldb_2015/</guid>
+      <guid>http://localhost/publication/98_vldb_2015/</guid>
       <description>Inequality joins, which join relational tables on inequality conditions, are used in various applications. While there have been a wide range of optimization methods for joins in database systems, from algorithms such as sort-merge join and band join, to various indices such as B+-tree, R∗-tree and Bitmap, inequality joins have received little attention and queries containing such joins are usually very slow. In this paper, we introduce fast inequality join algorithms.</description>
     </item>
     
     <item>
       <title>BigDansing: A System for Big Data Cleansing</title>
-      <link>http://da.qcri.org/rheem/publication/99_sigmod_2015/</link>
+      <link>http://localhost/publication/99_sigmod_2015/</link>
       <pubDate>Thu, 01 Jan 2015 13:07:31 +0200</pubDate>
       
-      <guid>http://da.qcri.org/rheem/publication/99_sigmod_2015/</guid>
+      <guid>http://localhost/publication/99_sigmod_2015/</guid>
       <description>Data cleansing approaches have usually focused on detecting and fixing errors with little attention to scaling to big datasets. This presents a serious impediment since data cleansing often involves costly computations such as enumerating pairs of tuples, handling inequality joins, and dealing with user-defined functions. In this paper, we present BigDansing, a Big Data Cleansing system to tackle efficiency, scalability, and ease-of-use issues in data cleansing. The system can run on top of most common general purpose data processing platforms, ranging from DBMSs to MapReduce-like frameworks.</description>
     </item>
     
