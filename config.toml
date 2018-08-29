@@ -1,5 +1,5 @@
-#baseURL = "http://da.qcri.org/rheem/"
-baseURL = "http://localhost/"
+baseURL = "http://da.qcri.org/rheem/"
+#baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "Rheem X-Platform"
 theme = "airspace-hugo"
