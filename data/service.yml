@@ -34,7 +34,7 @@ content:
     text: >
       A simple interface that allows developers to focus only on the logics of their application.
     textexpanded: >
-      Rheem exposes a simple Java API to developers whereby they can implement their tasks. Developers focus on the logics of their tasks rather than on low-level details specific to data processing platforms. Figure X shows the Rheem plan for a scalable gradient descent implementation: we clearly see that this tedious implementation task is now much easier!
+      Rheem exposes a simple Java API to developers whereby they can implement their tasks. Developers focus on the logics of their tasks rather than on low-level details specific to data processing platforms. The figure of the SGD plans above shows the Rheem plan for a scalable gradient descent implementation: we clearly see that this tedious implementation task is now much easier!
 
   - icon: fa fa-piggy-bank
     name: Cost Saving
