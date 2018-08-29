@@ -76,7 +76,7 @@ googleAnalytics = "UA-124750019-1"
   [params.call]
     enable = true
     title = "Turning a Zoo into a Circus"
-    paragraph =  "<a class=\"nothing\" href=\"/about\">Read more</a> on how <b>RHEEM</b> tame the Zoo of existing data processing platforms to work together."
+    paragraph =  "<a class=\"nothing\" href=\"http://da.qcri.org/rheem/about\">Read more</a> on how <b>RHEEM</b> tame the Zoo of existing data processing platforms to work together."
 
   [params.blog]
     enable = true
