@@ -24,7 +24,7 @@
 							</a>
 							{{if .Params.paper}}
 								<a href="{{ $.Site.BaseURL }}{{.Params.paper}}" class="btn btn-link" style="font-size: 1.5em;">
-									<img src="/img/pdf.png" style="width: 1.5em; margin-top: 0.99em"> {{ .Params.show_title }}
+									<img src="{{ .Site.BaseURL }}img/pdf.png" style="width: 1.5em; margin-top: 0.99em"> {{ .Params.show_title }}
 								</a>
 							{{end}}
 							{{if .Params.video}}

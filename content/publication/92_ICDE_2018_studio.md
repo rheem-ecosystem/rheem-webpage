@@ -9,8 +9,8 @@ country =  "France"
 type = ""
 date = "2018-01-01T13:07:31+02:00"
 author = "Ji Lucas, Yasser Idris, Bertty Contreras-Rojas, Jorge-Arnulfo Quiané-Ruiz and Sanjay Chawla"
-imagen = "/img/screenshot/studiodemo.png"
-paper = "/pdf/paper/studiodemo.pdf"
+imagen = "img/screenshot/studiodemo.png"
+paper = "pdf/paper/studiodemo.pdf"
 tags = ["publication"]
 categories = ["publication"]
 +++

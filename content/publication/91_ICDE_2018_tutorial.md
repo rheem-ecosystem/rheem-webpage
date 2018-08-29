@@ -9,8 +9,8 @@ country =  "France"
 type = ""
 date = "2018-01-01T13:07:31+02:00"
 author = "Zoi Kaoudi and Jorge-Arnulfo Quiané-Ruiz"
-imagen = "/img/screenshot/rheemtutorial.png"
-paper = "/pdf/paper/rheemtutorial.pdf"
+imagen = "img/screenshot/rheemtutorial.png"
+paper = "pdf/paper/rheemtutorial.pdf"
 tags = ["publication"]
 categories = ["publication"]
 +++

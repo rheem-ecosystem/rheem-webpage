@@ -31,7 +31,7 @@
           <div id="testimonial-slider" class="owl-carousel">
             {{ range .Site.Data.testimonial.people }}
             <div>
-                <img src="img/cotation.png" alt="IMG">
+                <img src="{{ .Site.BaseURL }}img/cotation.png" alt="IMG">
                 <p>"{{ .text }}"</p>
                 <div class="user">
                   <img src="{{ $.Site.BaseURL }}{{ .image }}" alt="Pepole">

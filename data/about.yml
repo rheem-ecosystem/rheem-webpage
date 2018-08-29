@@ -2,11 +2,11 @@ enable: true
 title: About
 subtitle: >
   How we tame the jungle for you
-logo: "/img/logo.png"
+logo: "img/logo.png"
 archicture: "/img/architecture.png"
 archictute_title: "Architecture of Rheem"
 
-plan: "/img/plan.png"
+plan: "img/plan.png"
 plan_title: "SGD plans"
 
 about: >
