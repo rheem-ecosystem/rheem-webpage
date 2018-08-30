@@ -103,4 +103,4 @@ googleAnalytics = "UA-124750019-1"
       phone = "+974 4454 0629"
       fax = "+974 4454 0630"
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Where are we?"
